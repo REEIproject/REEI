@@ -1,0 +1,26 @@
+procedure GIT
+ 
+git init // sur un dossier sur sa machine perso
+
+- acceder au site depuis la console 
+git remote add origin https://github.com/ESILV-CFR-2016/test
+
+
+- se placer sur un dossier 
+(clique droit sur un dossier et cliquer "GIT bash here") 
+ou cd avec chemin relatif ou absolu
+
+touch nouveaufichier.extension  //crée un nouveau fichier 
+git add . //ajouter ce fichier au dossier local
+git commit -m "description de ce qu'on fait" // obliger pour pouvoir pusher
+git push origin master // ici master est la branche dans laquelle on veut mettre 
+
+
+git pull origin master // pour mettre en ligne 
+
+git checkout -b nom_de_la_branche_créée //crée une branche et on travaille directe dedans
+git push origin nom_de_la_branche_créée // pour y mettre des choses dedans
+
+git branch // voir toutes les branches
+
+git checkout nom_d'une_branche_existante // pour se replacer autre part
